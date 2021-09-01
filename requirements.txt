@@ -1,0 +1,6 @@
+Django==3.2.5
+djangorestframework==3.12.4
+requests==2.25.1
+psycopg2-binary==2.9.1
+python-dotenv==0.10.1
+django-extensions==2.2.5

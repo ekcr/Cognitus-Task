@@ -1,0 +1,16 @@
+from typing import List, Optional, Text
+
+from pydantic import BaseModel
+
+class DataBase(BaseModel):
+    text : str
+    label : str
+
+class DataCreate(BaseModel):
+    pass
+
+class Data(DataBase):
+    id : int
+
+    class Config:
+        orm_mode = True
